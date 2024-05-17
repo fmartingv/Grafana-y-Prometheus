@@ -36,23 +36,29 @@ Ponemos los puertos 9090 y 3000 para acceder a prometheus y grafana:
 
 Paso 3: Configurar Prometheus y Grafana
 1.	Crea un archivo de configuración para Prometheus:
- ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/71b3b6a7-91c4-42e4-aa6c-df9d7c9479c0)
+ ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/88b9ca67-7e8d-4bf1-b145-ea623bb2795a)
+
 
 2.	Ejecuta Prometheus en un contenedor Docker
- ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/83793248-a6cd-41f5-a2d1-e360dacb1ec6)
+![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/860bc0c5-8e82-4d82-815f-eeb0e8057d0d)
+
 
 3.	Ejecutamos Grafana
-![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/dfa64d47-06a5-41c4-8681-0486be0c505e)
+![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/39801a32-1fb5-4647-a0b3-145c66cd9551)
+
 
 Paso 4: Configurar Grafana , Prometehus y Exporter
 1.	Vemos que tenemos parados las imágenes de prometheus, grafana y exporter así que la ejecutamos:
- ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/8d8d955c-8ea9-4c46-8260-773ad6e779ce)
+ ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/b69189a5-9719-455d-bd42-f17688d30d87)
+
 
 2.	Los ejecutamos y pasan de Exited a UP
- ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/e2b80837-d0bf-420a-ae32-14420e29ccf5)
+ ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/6e897b4b-8dab-4336-99f4-3baad1aab70f)
+
 
 3.	Entramos en el navegador poniendo la ip/3000 para entrar a Grafana:
- ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/9d2918cd-b9f7-466a-a011-8b8f93014d01)
+ ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/5c25a561-7cc4-48b8-830b-f268e3149d78)
+
 
 4.	Conectamos Prometheus como fuente de datos en Grafana poniendo como url la ip/9090 que es donde esta prometheus:
  ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/08343b69-dd1a-4e39-911b-6ac408956861)
