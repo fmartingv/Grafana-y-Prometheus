@@ -68,11 +68,10 @@ Paso 4: Configurar Grafana , Prometehus y Exporter
 
 6.	Abrimos prometehus y hacemos algunas pruebas up(vemos que pone 1 que es que esta funcionando), go_info que nos da diferente info, y por ultimo tenemos un grafico de la cpu utilizada.
  
-![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/de672ff1-8d6a-4aef-9e45-c27127bbe656)
+![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/22018fc4-6e10-4c46-b8b2-9856e1a33e54)
 
 
 
 7.	Abrimos la ip nuestra y vemos nuestra pagina de github gracias al Nginx
- ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/22018fc4-6e10-4c46-b8b2-9856e1a33e54)
 
-
+![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/de672ff1-8d6a-4aef-9e45-c27127bbe656)
