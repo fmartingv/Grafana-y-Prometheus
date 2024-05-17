@@ -10,9 +10,11 @@ Paso 1: Instalar y configurar Nginx
 1.	Instalamos Nginx:
  ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/6f6631af-289a-4cfd-97c6-f27b9bd669c7)
 2.	Configura la redirección en Nginx:
+   
 ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/fc570e40-9341-4ee4-a528-fdd0a3118632)
-3.	Reiniciamos Nginx
-4.	Ejecutamos el exporter 
+
+4.	Reiniciamos Nginx
+5.	Ejecutamos el exporter 
 ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/3be6a6e8-1d4a-485a-a044-bc990a2478ff)
 
 
@@ -63,7 +65,8 @@ Paso 4: Configurar Grafana , Prometehus y Exporter
 
 6.	Abrimos prometehus y hacemos algunas pruebas up(vemos que pone 1 que es que esta funcionando), go_info que nos da diferente info, y por ultimo tenemos un grafico de la cpu utilizada.
  
-![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/d0d4a016-8b31-4bc5-986f-8597c93dcc3b)
+![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/de672ff1-8d6a-4aef-9e45-c27127bbe656)
+
 
 
 7.	Abrimos la ip nuestra y vemos nuestra pagina de github gracias al Nginx
