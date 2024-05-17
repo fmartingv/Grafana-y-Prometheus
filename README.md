@@ -42,10 +42,7 @@ Paso 3: Configurar Prometheus y Grafana
  ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/83793248-a6cd-41f5-a2d1-e360dacb1ec6)
 
 3.	Ejecutamos Grafana
- 
 ![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/dfa64d47-06a5-41c4-8681-0486be0c505e)
-![image](https://github.com/fmartingv/Grafana-y-Prometheus/assets/120713266/426b4ecc-58ff-4f8e-bbdf-bda37c65dc8b)
-
 
 Paso 4: Configurar Grafana , Prometehus y Exporter
 1.	Vemos que tenemos parados las imágenes de prometheus, grafana y exporter así que la ejecutamos:
